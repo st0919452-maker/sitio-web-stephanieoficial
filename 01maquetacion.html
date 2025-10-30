@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maquetacion</title>
+    <link rel="stylesheet" href="01maquetacion.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header class="grisc borderR">
+            <img src="imagenes/img2.png.jpg" alt="" width="1110" height="230">
+        </header>
+
+        <main>
+            <nav class="aqua borderR posicion marginInf"> <tr><td><a href="imagenes/img.png" target="contenido">Inicio</a></td></tr>
+                <pre></pre>
+                <table>
+                    
+                    <tr><td><a href="html/03boxModel.html" target="contenido">Ejemplo 1</a></td></tr>
+                    <tr><td><a href="html/04boxModel.html" target="contenido">Ejemplo 2</a></td></tr>
+                    <tr><td><a href="html/05margin.html" target="contenido">Ejemplo 3</a></td></tr>
+                    <tr><td><a href="html/06border.html" target="contenido">Ejemplo 4</a></td></tr>
+                    <tr><td><a href="html/09degradados.html" target="contenido">Ejemplo 5</a></td></tr>
+                    <tr><td><a href="html/10textos.html" target="contenido">Ejemplo 6</a></td></tr>
+                    <tr><td><a href="html/iframecopi.html" target="contenido">Ejemplo 7</a></td></tr>
+                    <tr><td><a href="html/marcadores.html" target="contenido">Ejemplo 8</a></td></tr>
+                    <tr><td><a href="html/parcial.html" target="contenido">Ejemplo 9</a></td></tr>
+                    <tr><td><a href="html/tablas.html" target="contenido">Ejemplo 10</a></td></tr>
+                </table>
+            </nav>
+
+            <section class="grisO posicion marginInf">
+                <img id="imagenInicial" src="imagenes/img.png" alt="" width="780" height="950">
+                <iframe name="contenido" id="iframeContenido" class="borderR grisc marginInf" width="950" height="950" style="display: none;"></iframe>
+            </section>
+        </main>
+
+        <footer class="grisO borderR">
+            <pre>footer</pre>
+        </footer>
+    </div>
+
+    <script>
+        const links = document.querySelectorAll('nav a');
+        const imagen = document.getElementById('imagenInicial');
+        const iframe = document.getElementById('iframeContenido');
+
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                imagen.style.display = 'none';
+                iframe.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-color: hotpink;
+}
+
+[class^="box-"] {
+    box-sizing: border-box;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.box-1{
+    background-color: orange;
+    border: 30px dotted blueviolet;
+
+}
+/*ejemplo con los shorthan del border*/
+.box-2{
+    border-style: deeppink;
+    border-width:20px ;
+    border-color: mediumvioletred;
+}
+.box-3{
+    /*ancho*/
+    border-bottom-width: 10px;
+    border-right-width: 40px;
+    border-top-width: 30px;
+    border-left-width: 20px;
+    /*estilo*/
+    border-bottom-style: double;
+    border-left-style: groove;
+    border-right-style: solid;
+    border-top-style: dotted;
+    /*color*/
+    border-left-color: greenyellow;
+    border-top-color: lightpink;
+    border-bottom-color: mintcream;
+    border-right-color: azure;
+}

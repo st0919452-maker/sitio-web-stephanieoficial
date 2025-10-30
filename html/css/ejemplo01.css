@@ -1,0 +1,17 @@
+/*uso de variables*/
+:root{
+	--colorF:tomato;
+}
+body{
+    background-color:var(--colorF);
+    margin: 30px;
+        
+
+}
+hi{
+	background-color:beige;
+	color: pink;
+	padding: 15px;
+
+}
+

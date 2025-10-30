@@ -1,0 +1,27 @@
+body {
+    background-color: hotpink;
+}
+
+[class^="box-"] {
+    background-color: lightsalmon;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 30px solid black;
+    margin: 50px;
+    float: left;
+}
+
+.box {
+    border-color: mediumpurple;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 20px;
+    border: 10px solid mediumpurple;
+}
+
+div {
+    display: block;
+}

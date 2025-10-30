@@ -1,0 +1,18 @@
+/*selectores sencillo*/
+/*selectores universal*/
+{
+	color:pink;
+    margin: 30em;
+    padding:3em;
+}
+/*selector clase */
+t3{
+	background-color: deeppink;
+	color: white;
+}
+center{
+	text-align: center;
+}
+parrafo{
+	background-color: :d;
+}

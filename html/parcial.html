@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esquema con iframe</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: darkmagenta;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      background-color: lightyellow;
+      text-align: center;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    td {
+      padding: 10px;
+      border: 2px solid deeppink;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      border: 4px solid violet;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado visual -->
+  <iframe src="img/img2.png" frameborder="0" height="100" name="contenido1"></iframe>
+
+  <!-- Menú de navegación -->
+  <table>
+    <tr>
+      <td><a href="ejemplo01.html" target="contenido1">INICIO</a></td>
+      <td><a href="marcadores.html" target="contenido1">FRONTEND</a></td>
+      <td><a href="multimedia.html" target="contenido1">BACKEND</a></td>
+    </tr>
+  </table>
+
+  <!-- Área de contenido -->
+  <iframe src="img/img2.png" frameborder="0" height="500" name="contenido1"></iframe>
+
+</body>
+</html>

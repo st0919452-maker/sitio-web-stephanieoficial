@@ -1,0 +1,20 @@
+body{
+	background-color: lightblue;
+}
+.h1{
+	background-color: lightsalmon;
+	height: 200px;
+	width: 250px;
+	/* cambiamos la propiedad para que sea elemento de linea*/
+	/*display: inline;*/
+}
+.p{
+	background-color: aqua;
+	height: 200px;
+	width: 250px;
+	display: inline;	
+}
+
+span{
+	
+}

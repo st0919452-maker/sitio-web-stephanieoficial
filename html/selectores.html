@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Selectores CSS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+    }
+
+    .titulo {
+      background-color: deepskyblue;
+      color: black;
+      text-align: center;
+      padding: 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .subtitulo {
+      background-color: black;
+      color: limegreen;
+      text-align: center;
+      padding: 10px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .cuadro {
+      margin: 20px;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .universal { background-color: magenta; }
+    .tipo { background-color: red; }
+    .clase { background-color: hotpink; }
+    .id { background-color: orange; }
+    .compuesto { background-color: green; }
+    .agrupado { background-color: dodgerblue; }
+
+    .texto {
+      background-color: black;
+      color: orange;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .texto-clase {
+      background-color: dodgerblue;
+      color: white;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .texto-id {
+      background-color: black;
+      color: yellow;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .texto-compuesto {
+      background-color: white;
+      color: black;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .asterisco {
+      text-align: center;
+      font-size: 2em;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="titulo">Selectores</div>
+  <div class="subtitulo">Selectores sencillos</div>
+
+  <div class="cuadro universal">
+    <h2>1. Selector universal</h2>
+    <div class="texto">
+      Selecciona todos los elementos del documento web, se representa por:<br><br>
+      <strong>*</strong>
+    </div>
+  </div>
+
+  <div class="cuadro tipo">
+    <h2>2. Selectores de tipo o elemento</h2>
+    <div class="texto">
+      Es el selector más sencillo, ya que simplemente es una etiqueta de html.
+    </div>
+  </div>
+
+  <div class="cuadro clase">
+    <h2>Selector de clase</h2>
+    <div class="texto-clase">
+      Una clase es un atributo de un elemento o etiqueta de html o xml.<br>
+      Este es el más recomendable para dar estilo ya que puede ser reutilizado.
+    </div>
+  </div>
+
+  <div class="cuadro id">
+    <h2>Selector por ID</h2>
+    <div class="texto-id">
+      Un ID es un atributo único que se asigna a un solo elemento.<br>
+      Se usa principalmente en JavaScript y no debe repetirse en el documento.<br>
+      Se representa con el símbolo <strong>#</strong>.
+    </div>
+  </div>
+
+  <div class="subtitulo">Selectores compuestos</div>
+
+  <div class="cuadro compuesto">
+    <h2>Selector compuesto</h2>
+    <div class="texto-compuesto">
+      Este tipo de selector combina varios selectores para aplicar estilos más específicos.<br>
+      Ejemplo: <code>div.clase</code> selecciona todos los &lt;div&gt; que tengan esa clase.
+    </div>
+  </div>
+
+  <div class="cuadro agrupado">
+    <h2>Selector agrupado</h2>
+    <div class="texto-compuesto">
+      Todos los selectores estan agruados por elemento caracter.<br>
+    </div>
+  </div>
+
+   <div class="cuadro descendientes">
+    <h2>Selectores descendientes</h2>
+    <div class="texto-compuesto">
+      indican cuando un elemento es hijo, nieto,etc.se agrupa con un espacio ejemplo.<br>
+    </div>
+  </div>
+
+  <div class="asterisco">*</div>
+
+</body>
+</html>

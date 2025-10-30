@@ -1,0 +1,100 @@
+formulario.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>tablas</title>
+</head>
+<body>
+  <h1>Registro de Datos</h1>
+  <form action="" method="">
+    <fieldset>
+      <legend>Datos de Usuario</legend>
+      <p><label>Usuario: <input type="text" name="id"></label></p>
+      <p><label>Contraseña: <input type="password"></label></p>
+      <p><label>Ingresa nuevamente tu contraseña: <input type="password"></label></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <p><label>Nombre Completo <input type="text"></label></p>
+      <p><label>Email <input type="email" placeholder="nombre@info.com"></label></p>
+      <p><label>Fecha de Nacimiento <input type="date"></label></p>
+      <p><label>Edad <input type="number"></label></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pasatiempos</legend>
+      <p><label>Leer<input type="checkbox"></label></p>
+      <p><label>Bailar<input type="checkbox"></label></p>
+      <p><label>Cantar<input type="checkbox"></label></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Sexo</legend>
+      <p><label>Masculino<input type="radio" name="sexo"></label></p>
+      <p><label>Femenino<input type="radio" name="sexo"></label></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Selecciona tu País</legend>
+      <select name="pais">
+        <option value="bo">Bolivia</option>
+        <option value="ar">Argentina</option>
+        <option value="pe">Perú</option>
+        <option value="cl">Chile</option>
+        <option value="br">Brasil</option>
+      </select>
+    </fieldset>
+  </form>
+</body>
+<select name="" id="">
+  <option value="">Seleccionar...</option>
+  <optgroup label="America">
+    <option value="bo">Bolivia</option>
+    <option value="pe">Peru</option>
+    <option value="br">Brasil</option>
+  </optgroup>
+  <optgroup label="Europa">
+    <option value="es">España</option>
+    <option value="it">Italia</option>
+  </optgroup>
+</select>
+
+<select name="" id="" multiple>
+  <option value="">Seleccionar...</option>
+  <optgroup label="America">
+    <option value="bo">Bolivia</option>
+    <option value="pe">Peru</option>
+    <option value="br">Brasil</option>
+  </optgroup>
+  <optgroup label="Europa">
+    <option value="es">España</option>
+    <option value="it">Italia</option>
+  </optgroup>
+</select>
+
+<textarea placeholder="Escribe tu comentario" cols="20" rows="4"></textarea>
+<fieldset>
+  <legend>Tipos de Fechas y tiempo</legend>
+  <p><label>Fecha con rango: <input type="date" min="2022-03-14" max="2023-08-20"></label></p>
+  <p><label>Fecha y Hora: <input type="datetime-local" placeholder="10-03-2022 22:15"></label></p>
+  <p><label>Mes y año: <input type="month"></label></p>
+  <p><label>Semana y año: <input type="week"></label></p>
+  <p><label>Hora: <input type="time"></label></p>
+</fieldset>
+
+<fieldset>
+  <legend>Números</legend>
+  <p><label>Número con tipo: <input type="number" min="5" max="25" step="5"></label></p>
+  <p><label>Número Tipo rangos: <input type="range" min="5" max="30" step="5"></label></p>
+</fieldset>
+
+<fieldset>
+  <legend>Otros inputs</legend>
+  <p><label>Selecciona un archivo <input type="file"></label></p>
+  <p><label>Selecciona un color <input type="color"></label></p>
+</fieldset>
+
+<input type="submit">
+</form>

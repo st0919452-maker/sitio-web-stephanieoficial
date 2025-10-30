@@ -1,0 +1,43 @@
+body {
+    background-color: hotpink;
+}
+
+[class^="box-"] {
+    box-sizing: border-box;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin-bottom: 20px;
+    margin: auto;
+p{
+    background-color: darkred;
+}
+.box-1{
+    /*propiedadea del margin
+    margin-top: 50px ;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-bottom: 150px;
+    /*shorthand
+    margin: 50px 30 px 150 px, 100px;*/
+    /*shorthand como loop*/
+    margin: 50 px 100px 200px;
+}
+ .box-2{
+    margin-top: -250;
+ } 
+ .box-3{
+    margin: auto;
+ }
+ .container{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blue;
+
+ }
+ .item{
+    border: 2px solid blueviolet;
+    margin-left: -80px;
+    margin-right: -80px;
+ }
